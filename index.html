@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Samsung Air ✈️</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./res/styles/samsung-wallet-demo.css"
+    />
+  </head>
+
+  <body>
+    <div class="samsung-air-container">
+      <nav class="nav-bar">
+        <div class="nav-bar-inner">
+          <div class="nav-bar-logo">
+            <div class="samsung-logo"></div>
+          </div>
+          <div class="nav-bar-menu">
+            <a class="nav-bar-menu-item">
+              <div class="search-icon"></div>
+            </a>
+            <a class="nav-bar-menu-item">
+              <div class="cart-icon"></div>
+            </a>
+            <a class="nav-bar-menu-item">
+              <div class="menu-icon"></div>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <p class="main-title">Samsung Air ✈️</p>
+      <div class="contents">
+        <div class="contents-item trip">
+          <p class="title">Round Trip</p>
+          <p class="content">ICN ➡ SFO</p>
+        </div>
+        <div class="contents-item">
+          <div class="title">Flight Number</div>
+          <p class="content">SE101</p>
+        </div>
+        <div class="contents-item">
+          <div class="title">Cabin Class</div>
+          <p class="content">First Class</p>
+        </div>
+        <div class="contents-item">
+          <div class="title">Seat</div>
+          <p class="content">1A</p>
+        </div>
+      </div>
+      <script
+        src="https://us-cdn-gpp.mcsvc.samsung.com/lib/wallet-card.js"
+        type="text/javascript"
+      ></script>
+      <div id="TARGET_ID"></div>
+      <script>
+        samsungWallet.addButton({
+          partnerCode: "4041102467398138496",
+          showForced: true,
+          cardId: "3g571en231og0",
+          cdata:
+            "eyJjdHkiOiJDQVJEIiwidmVyIjoiMSIsInBhcnRuZXJJZCI6IjQwNDExMDI0NjczOTgxMzg0OTYiLCJ1dGMiOjE2NzE0NTg2MDI5MzUsImFsZyI6IlJTMjU2In0.ZXlKbGJtTWlPaUpCTVRJNFIwTk5JaXdpWVd4bklqb2lVbE5CTVY4MUluMC5jaGdGRWZhXy1SdHFpVjVMY0swOVI3M2dXMG9NbXVaTHdnc0FjaFZQa2ZMMEY0ZGZRWjkxZ05obUdKc0VIR21zOWtqdGJFVVlsV1FlZ0JMamV4Z3dBQWU0MFlJSThuRWlsaDZfRXhfWU9JSnFTdEFYY1FVdFNwSHF4OGh6MGFodWtzT1ZJNVVZZ195dVV5MENaWVJxZk1waElpWXFWZ01NeUR6Z3FyNnJmc29jRHhwU195SExlaU52RW1BSzhxWVNJeHpOTUF0Y1FmQnZscUM1blZ6R1NXLUtLV3NTS0lTNTMyRExnY1hoa1ZTcU93SW5oQVNCVEowRmdvbkhwRzBacUt4LTRiRWtNWDBOem9mSUxMU1BZYlhRZTk1aWhqbGcwUzJvX05WalZWOWd6V0F6dkppSE5BTXdwMWhRTWtqZGNvRGphNTdmbHZwMEwzbjdTeTUyLUEuQ1A3ZHE5eHdQME1RQkRGNC5UZXpPejBSRTlWMlFiRGQ0V0FWQTVzX1ZERkRzTzhhRnEwQkUzQnduR29NUTRHaWJYbkFoc3B3bl84M1g1SlVtZzhDdGdGazhTamVDdFhTT05pd2pHeVpGT1VWaElpRmltdEdEaW1FeUo0NElnNDBXb1gwSTBpNkkyaWFvc2l6ZkN6cW04N3VCTGNWYlJpamxEanJwTHVPcEowaURJaGRXNHFpM0pMNzYyMU1XcEVKUjM3ZWlmRElxWFlFVVNYT3RIYlI0eV9ZeTgyclcxdnlLYlFKOU1RUGJhazNZT3NnVkNhbmtoeVA4MkNXU055bDJTdEMzRUtoamU2TmFOQl9tb3hmR002dGFybFc3N0FSSExsQlFZSDdUNi1YY2VJV0N5NlAwQUt0VFltVDZONER6R1VWMFUzcHNQZDBuWS03RlBJRFJUUml1WFBpamR4ZlduN0ZXUjRhZFhjeEphQVhmdERnaUg0bEQ1V053MW5XRVN0Nk8wZDM5TFJ2VUN6REhHdWxlTU93aDY1U3BwbHM2LWNrTjN6LXJxZkIxNVhYWmZUUERSVHlnQXpYTTR6LWVoOWNSZTFfLTJ0TjRLbmZNaFU1VkRUWDBrVGVHeGdQeFpoZ3hoc3k1TzZyUVA2QzFNUnNiSUhnMVhGd2ZUdkNITVM5Z1dqdGpHQkZtdWhWUlZBcVVqUUs2eEFCcFR1V2pKWGRtX2FKUDdERFBGT1Z3OXhxMGxiSEN4X1F5dG8xRFNyYlZRSndJVWpiSXZWc0dOeVVIb2xEMi1HbS1peXAyYlJaazBWdDlMYk5PRUxUdHNoY2tWUEJZYTBzeWVMdTRpSElLVjFfdG4xdmpURTduVkFSSDNxcElQWmZzRzRvcmJnR3hDZU1oajhoc29UeXNxREFaa1dHT0hCRDVNVVpPR0tWTm81eng5eUFCM2hTZGVMTmFqM2Z0YWVIV1poU3ROUV8tYk1DRlQ2cE9tMnI4NkZMWkZGUThpSXhSbzA5cWNPNmRBRmxLVkV5ZkpLdUQyM0xqTFF3dEFjZ3hSZC11TEYyRDhiWTI1SWlQMHRVUDlHNDJWcWhXZVQ4RmNYYkNLZGxBdzhTQU5XY05idVNvVDAyZzdwRjZqUFhQWHlmLWYzU2REZVdFMlhRbGxHNF9GTEc1SEtXbHB0Z01LT1M1dk1EUUhkSTRzTTNFYTBxX1J6U0ZhMXpWREZabWkydkY0LU5ob3FSMk9nNzBJZWFWdkxGYXlzaUx2RHI0aHA0Q1NJV0FXOUlES1dhVnhCOFlpTEYwUjhydlhBVlpGTTJzZkZJNEVJcVdaX21QZWRvVXI0Vy1sOGY5alRLNDRqbHdrMnRkcElhb1pXVGpoYWFNTnl3TWJSY3UxajFOMXI0ZGVON3hOSi1YTHhPbnIxLVN1OWJGVjVPWmhzV0NpVjBuY19NOHA3NWJiZHJmU25UX0FicE1mTWlXelFJbTZkWnAtbHIxWFdtaUItWE5sRFNxRUl6OXZHUGljUEVNSHV6NHdhd0EzUGNJSTVGTU5QMEtFbjAtZGRrZUNDYVJtNUxjNmlzaTc2QUtyd0pHdGtMSG9ocmNJVWQ1bzN3R2oyQkdBYnlqMXoyb1VIS0tIU1lLUW5EejdtanZRck9KQjg0bEc5dXU2MFZBV18xaF9DRi1pWl9tRm81QXBic2hJX0JWQmFOc2sxRExPU1h0d09kcmNSTnNheW1kZ3M2VnBoeU9lOVVRU1F2N01DVC1WLTJxMV9XTzZKaHhWdTByN1NESUVtei1QNHNqNkV5OWVUMHJtX3JQZEF2S3ZKTE5qR2N5YzJSa0hEWVNfeU82MXNGVl9SUkNYNGVzUEpBeHJLZ1FxdkJYTEphWmpDMzhMWmFHcmdiRnpub1l0RDNGUndZeHJnTDZyTDBEMFBnbF93cWhoQmhsME96amItTFVOQk8tM044TmhyN1YwQlh4ZThlLWNlU29LUzZuLTZFbEthZ182LXMzRVdzSl9SRy1DbVZRaERFMzN0bGlvc0dLX3BkbG5sbE1jYm9PZkttcWkxWnQ4TEtBZDJnaFlNdkd5dXZvS3RZQjEyZGVYQ2ZHZnM4WFFoSWlDN1c4U0FfMnhMbkZvVE1OQmo1bDg5RmF3YnZDc1RUenhwTHF6eF90X2hRVDdTOWlNR3NOb3M5WW5zMzdjZmpzeWw2OFN3TUhOSkhrYUNLbElXUDNwd085U182Q3dXMVNFajByZ2JwenMzOEVwNklLQU50VC1nNzV0MDI3Z0ltOTlLaGo4NHVZUlUyamsxS053ZHlQVFF5OWVpcGc4a09oYWp4c016MGlmT3JvMENNS29zMzJ6OWZlY1h0azVNZ0JPMkpuU0RHQ3EyUVRBdC1GX3JZeUZuNkNzajJ6QXdaamppQWhsZWtfOHFCUzBTUlU3aFNBbkpOcm5BRGtLTi05Q05tcERTRFRESVlyM2dpc0Y5Uk1wSmZMZEw1dXNqUzJxXzhjaWJTRTlsenF5cUJyTFFkRUJKZjdfWTNvdlNiTDZJSnZzUnFVTjNlWjRLM2ZEVjFMWDlma2xCS3JVMVJlTE9td3R0UUZ2LW9RSmVwd2xseEZaWWthLUtPOXVYcVpmUlNxODVkLW11a19iUjJwSU9adDNfaEFvTTFIbVM4N2dWanFHak1hT2ZlQy1DWUpBUGFISTdfRVg5QzNtR1JsVTV6ejM3V3BCbktDOW0zUVY2UjlpWVlPVVFvMVdjZ29jYThaOTc5UDNiUkxvZkI3VDdZWXZpOFhlNmo3VW1uRlRVZm9aZlVzNUFoMGVXdFN4SC1mQW5LdkZoYkVJZnVDZ2RRQzRFUXRHYlVUZ29KeVlqcG1JWmF5cVgwLUQ3ODhXLTlTZ3BIcG9vN21PY0drT3FhTkItcm55R1ZJbFdpUHEyS01xR0VHbnpHWmtnM24zRUZMQWN2LXFWWXdTaGJyVmZvMVdqYXF3eXBiMm40UWxmS2sxcktSRVk4SlQzYkxENExtS21MSkwxYXU1aGxrUWZtRVVLS1lJamlWVVZob0FmOThNOUhxTnFwTnRlOXI3QndnV2tzQzN3bDBFUE84ZXhnVTZIb1ljdlI2NGVMS2VzY1M0dWpHWDRnRW0ybEN1eHpsLU1saFphcW02RlEzV2l5cHI1OEFTNjVkb29TbTNkOS1IN2J6WWdGelBWS2d0b0Y0aE9vcVhwcVRJSjl4ZC1xalRsZzRhR0hEVWFBT1BfM2FTdW5sd21tb1J1UjNqOVgzczhmdnMxVTE3M3RTNTdUdmFBRWJmWFduVE1UMzRTUUJhdWdRSElMQUp4TldXM3duMDJ0VFJ5N0tsUXdnRzBOOHRkdGhXTDZwUUF2eDY1cDd6ck5MbzhrLW1PNFFFVWpvQUYxYVNyQVBLMWlYSG5rZFRZQzhYdWpFSTlDRzh1SVAxVkRJOWlld1dYWWF3WDg1TG1USzBSY2J5ZlQxWjFLUXBVV3diWVQ4R3FBSU4zdGJMbXptUU5IUk5Zd042UmxuZ1VGaGNRV09yb2Vqck1tMkN6emdDdXFGYUl4NUl3V25ZdGhnanhZS055VWxxbHl3bmVnNS1sSHp4T0RTN0R1elkzUkN1MTZDTzZTdllzVDhMM1dnZENoV1VjVXN5ak95aGhoZWR1UEtyY2pZZThMbndTSkJVZEh1UkxtZm1KNW0zVnBia0cyMEtWZE5nYnRIY3d5ZVhYWDV2LWhmT2JuQTNQTWt1UVZ4R1Q5UHR5Vkgya29rN2lRV19kS2M4VVpucEpzR0dSQzd5SGxpd0NnRG11cG1wLWp4WVZHczZJSWdrOXFEWDJ6dXo2N3ZBeVRtMzJkQ0pyRmJicHA5Q2FjR1JZeWlubGNpT2haUnJLREVBdG5VeGRoU09kaHItWGFNc2lZM3ZMTzh6Q0N2dG44bm1ObTI5bVdfRkhfc0lfbXFxQ2YzYTc5MmJjQlU0VzFqbFJ5eUVabUJZT1RCNndhQloxUlRDNzZIM2hXMGhUYW9Oc3pLdi16TXNwMzlqOGYwNGFZdmtjTTBvRjhrSTIyV2RsWDZhR252elc3WmxjSk14bFFWQThxdm5tLTVWaGVzTzZmd3ZEbjU2blFaU19hYTBjODk1TnRfR3ZqbGNSQUNfaGkzQnBHOXk4UE9ZazN4aUhJQkFfd1pXR0RMMjJpbUZCbk9KRGczcVBCaWRWSWRCbVcydUdWc3FodXJOdWRvTHVVWWo2bVZnZUNrRHF1Zm44MWhVVXI3QzRQS1ZLTVJHVzJTMDBrTDBQV1o4a2M5Y2dxYjR3RVJqc2FXRi1Pb2Y1N0pDbWlRazkwUkpJZnZhWVBZN2lKZTdmVXoxTEZDZDFOVW1tYm9xd1U5NDdXdDVPMS10RTVzNXcudkI0SG02d1pMVVNPWk9tUVgtTHlKUQ.ugfe6YKC7C3VIejKcoXZVy4kK1NKrMm23w8a5Wwm5rSNqRHFo7f9w_bU49PqmPsLJBYTxAOyQRQOucvxFv8usRpdQIhnkafdJc7iaCQr1EEYD7EOb3JQ1lQtDxc06MBCVdOcjhdQRYP00om6-Z8rQe4R_tdimC1RgdPmuUENCiZCLpQsBTRKYtXldxFUY6PbAS-R8WKwVCW2cluYFCjMBekb_aYe1yzGarBkoqm_dDYBH7P11t7N_8oKAL__GI4MJL4cF8fw7q_mGrZPHTAcH2IM_BrePiGSeqHPLZZ_RRgeY8R9ML7nN5Ycksh79PwU88h_FgNDg4HQUnJTftb-Sg",
+          RDClickUrl:
+            "https://us-rd.mcsvc.samsung.com/statistics/click/addtowlt?ep=C50C3754FEB24833B30C10B275BB6AB8;cc=GC;ii=1287098641030840334;co=4041102467398138496;cp=1288017491089625089;si=24;pg=101212967375212546;pi=Aqz68EBXSx6Mv9jsaZxzaA;tp=4041102946641138496;li=0",
+          RDImpressionUrl:
+            "https://us-rd.mcsvc.samsung.com/statistics/impression/addtowlt?ep=C50C3754FEB24833B30C10B275BB6AB8;cc=GC;ii=1287098641030840334;co=4041102467398138496;cp=1288017491089625089;si=24;pg=101212967375212546;pi=Aqz68EBXSx6Mv9jsaZxzaA;tp=4041102946641138496;li=0",
+          targetId: "TARGET_ID",
+          buttonId: "BUTTON_ID",
+        });
+      </script>
+    </div>
+  </body>
+</html>

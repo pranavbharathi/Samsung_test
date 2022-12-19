@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta
+        http-equiv='X-UA-Compatible'
+        content='IE=edge'
+    >
+    <title>Samsung Coupon 🎁</title>
+    <meta
+        name='viewport'
+        content='width=device-width, initial-scale=1'
+    >
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="./res/styles/style.css"
+    >
+</head>
+
+<body>
+    <div class="samsung-coupon-container">
+        <nav class="nav-bar">
+            <div class="nav-bar-inner">
+                <div class="nav-bar-logo">
+                    <div class="samsung-logo"></div>
+                </div>
+                <div class="nav-bar-menu">
+                    <a class="nav-bar-menu-item">
+                        <div class="search-icon"></div>
+                    </a>
+                    <a class="nav-bar-menu-item">
+                        <div class="cart-icon"></div>
+                    </a>
+                    <a class="nav-bar-menu-item">
+                        <div class="menu-icon"></div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <p class="main-title">Samsung Coupon 🎁</p>
+        <div class="contents">
+            <div class="contents-item">
+                <div class="thumbnail">
+                </div>
+                <p class="title">Samsung Ice Cream Coupon</p>
+                <div class="content">
+                    Cookie 'n Cold Brew Ice Cream is an irresistible flavor combination of three of your favorites -
+                    cold brew coffee, ice cream, and cookies. Use this coupon at any participating Samsung Ice Cream
+                    locations nationwide to redeem a delightfully energizing treat that will keep you going – anytime,
+                    anywhere.
+                </div>
+            </div>
+        </div>
+        <!-- Add Samsung Wallet Button Script On Your Website -->
+
+    </div>
+    </div>
+    <div
+        id="btn"
+        style="border: 1px solid; width:10px; height:10px;"
+    ></div>
+
+    <!-- <script
+        src="./res/js/samsung.js"
+        type="text/javascript"
+    ></script> -->
+
+
+    <script
+        src="https://us-cdn-gpp.mcsvc.samsung.com/lib/wallet-card.js"
+        type="text/javascript"
+    ></script>
+    <div id="TARGET_ID"></div>
+    <script>
+        samsungWallet.addButton(
+            {
+                partnerCode: "4041107270760138496",
+                cardId: "3g575l5l9rjg0",
+                cdata: "eyJjdHkiOiJDQVJEIiwidmVyIjoiMSIsInBhcnRuZXJJZCI6IjQwNDExMDcyNzA3NjAxMzg0OTYiLCJ1dGMiOjE2NzEyMTI4MDIxMDgsImFsZyI6IlJTMjU2In0.ZXlKbGJtTWlPaUpCTVRJNFIwTk5JaXdpWVd4bklqb2lVbE5CTVY4MUluMC5mN0JQOWNoM2xjSmZTcWJPUUl6R2NrRlZzazFXWEpIbDZqVnhXbDk5ZWtYWmRULWY5U0xPeUgtU3IyMkZVWTlUQUhtVDlDUHJuc0o4RW9Ga1l1Q2djcENDWjg1cC1zdTdFc1ZtZHJCcEJOSFd1dl9qSUlDR2l0VkV3d1Z4dFJXdm94Y1RDWTdKRVBobGlFendyVEtvcGNvRi1XbjZIbzVSZDNWTWk3VkU3NS1wMTlBUlRqVlh3dW1Xd0NTREdHRHFubURZelJHLWdUbFZSWlRDelp0dzV4WUdtVndzZlp1SDhwazc4SzZ2enVfVHNUTENwYU9ISXBiV2phdC14dkoxOUhLUV96T1JwNXFiUE1EVXpaMXJpb0NERF85Ui1HYXdzMUVnSm9BNGVrOXQtTkJ2WkUwcVFwVS05blFESnVpV2pnUVpkb1BidWh5UVgtOTZ3dFZCVXcuNEhWUnY3Y1Y1OV9PVm9Qbi4wQk04MEVEelA4aG52SldoVVVaOVVLcU94c1BZNWRyWjFDV0xfbGZ6TEJsWW9lNy1RaTRmOXV5T2pWbF81LXRNajZGRUVZdkVTM041bTFPUmU2MDlmdjlYRjVLR3hkdHhkaElua3Vua0o1U1YySllaU2NoSUQxTUxEMmQweDMxd2FmNU0wVTNhRmxCY1c3SDNXV2RJWW1aZkVTT01OTkt2X0pYSzdHSGtKZmJtVkVYYWI4R3BlUlQtNDlmVUdGd2RQVmkxVXNMTWJjc2RnZzJCTnZZWmtrc0VjZ1FCRkRKT2FVdjIydDY4M0JnZlB2RVFfdzNHSk5ONVdlZl9mV2pFWTFqR3FZUk9GQjBiS2hDUl9kYmhaR0txYWxHT24zY2E5U1JjVzgwTkhJdHp2SU1rd2s3VmNmTVVPYnQ1OGFRQ09Ob1BXS3RUVDB0eHpJa2FLZ2FhVU1GTU9TenU4YWVUQTd1VThGcDFURXI0TWNmRUdPME9FQ0RSM3ZQSEpYQlFqYmtZN0JCUXFFeFlzU283aXBmUUhJanA5Qnl5Sm9PRHJ6ZmFpMG5kU0hSV1RnUjhLcHgxQjJtSERvYUl3X041VVFjbWJiaXZlTW8tSkwwUmxuU0t0cGpDTTVrYVZ1YVlPR3JYSXZnQnVnYVJFcTBVN0d5WW04TmtHS2ZicFlpanVNRDVhYmItUDV4ZFFDblFabUlZVWY3Z2ZZRno2Mk1tYjl2LUNwbU9ILXZkSnFrTk9CWi1kZjdoZ3pRTWJtRzB3VWNuWnBEd2l3VUVTdWVuRHp3RWNMSVNpV004V1IwcmZpU05Ib2QteUdOYjdLWTJKRWN1bGprTmFzLTRGelNzOHp6NDZLdENIU2p4Q05XUFZ3YnhmMHFFMldDVkJDUUJ3X001Z2lnNnN4RDlFcWxXM0pGN1AzR0pERjAyZlpxekhaSnNJVERpTkFWMW9kaWJQT1ZxMnk4YmF1UHQwa1FySHJpQUl0cnZncGJUQzJMbHVVMXlMR09fa1BLYTZUUzh5ZENFVS15Q3lVZVJEcFVKUVB4Q1U0WFVlUm04bV9nTFV2Wl9UTmllSEYyQlNqRHgwWng2Vk1NTUU1X0c0NUNFSC13OHRZSXF0RHBxYTl2UU5wQm0yTmMwVEdaM09yZHJKOVpzM25qRlNzeFZ0Yl9KSnc2ekRBbG0xTUFQTktaNFhJRmNLT0l5OEN3QVlzb0RpbjItN3FBM1ppVm95bzVrTnZkMm9WQU14NzlyQ0ZXdS1vVEpkRUNraXFjTmJfYngyeVlxdjBmYWExU2JyaWpxeDAwOUZJOWlaVWIydHFNRzA3bW9wUzd6R0ZZV2lScEhjbDBXSldfN1FvWHp6STc5SFRpNmlUZEtvUW9fZlRoRldLZm5rTzZhVDBzcjRQRG96TmVJLVBHWjdVLW9UX2NVSF9Ud09ONmp4Y2pUdDcxSW5paWF0dDRiX1VkTUdPSmtSNkoza2R2VFBaVnRTMEJWR29scjI2VlR2eWtfTFJCaDl1eFpJQ0U2c1dfaEczcmdaNDdZdkpCT2RxeHlLM1JCMXUzR0JBMXcxdnh6OHo1c0w0YU1NTjdRclh4M2Q1SGFxOFFXRFFQMF85RkowWjVmN1dYVmxoZmw0SnBLTGlIOV84ODFoektGRWFrX0dhc1QxQndVTjdIbnc0SEFXdDNMeTVVRUxBVlB2WElvX0NNNURVbjdSZnJzRXgzbjl4UFhHb3J6ZGdVSFFnV3N4RTRyMW1GZDJPXzRPMVJKdDJOLUs1Vk03eGlSbW9sMFM4MlVKcGZVWEhRejI0UnBkNHhtVkFBSGUtTXEwa1IxRUZhS0dlX1B4SGFEWmxIM2dKNG1sV0I1UGR2Njk2cGtrVUs0Sk9kLVhxTUhfRExNVXVGY2ZVWEtTa0hLeEFxV0c2SzNmaDRvcmhMcVVvQjBBMmdCbDktOVFXbWdBOVhHejlfV25lT3NNanJjcU9uZDhUT3Iyek5wNVF2d2g0ai16RzlvVGt0OTJ6NzhxMmlzSzNpZ0JfQzJWSGRJUTlfYXd0V25xUjg2SW15cHpaS2h4R1hyWmZ2aU9FS3o1UFN1NVJDckdZMHkwQTlDdVA3amZXSFVyZE52bzFYZWdNazVPbHF3OFdSYUREOWQ1YnkzQWxPYjB5RWd5YW44dXlVMnR4eWl4MnBFSFY1ZTV5RlRidHJNUTRWU0V6ajJ0NkpKRkNSTFRLTHI0MWtlSmFLMU9wbHM1TkpaTTdTOXJodFN4dXlVVERNOGtqWVMwZHJqbnhSaUZncWxKMFdGTWhrZDRQcTdrTzRwWWJGWW00d2FlYWp6ZVlKLVZaVWdOT0h0QkN1dXBmNlBUczlrbnVEbWZEN1ROQXl1Ui1IUFprN0FXSEI1VDB0alA4ZXB2VHU3aGdCb1pIQXRwM3FVNkxVVUpOTVBPOU80cXByNmdvNlpfZGt0Z2d2OG5xcFZoakdzMnJLUE11ZlRNdFc3dlZPa3NualJXZk5GdDg2WE1BZDE4Y0RvbGRsQzNScUk4MjdaZ2pqMFVsVF9Xd2xhVWFtSmp3V20wZjVEcFZlekVuMUpqRVZHVTQ0Z0NpY0JCeXd5WlBUQWNBYlRuNzhnTXBucjUwZF9IUVBFbzV2WG5EN1RkdzNTb0xnZUVxY3Q2dFljSFRyOWU3QkhBZXVxZlVjVmxGd29DTy1sRmRQbFExc2lXMl9rNUJqVkFxYzBadFE3UkFIREhuUXBmRGVuNHNlY1Rib3RjTHdJQ3BjSjQwTGlIRjVPQ09Ja2hqOVJpaXpER0xoN3ltT2prYkhiMDZOX1RReTNmUENyOW1XNVFFN29vVXBWWmt5eTduS1BQb2VqX1lxb0RUY2FaaFZLTGhrU2dLdWpHSXRzM3hVUmxpMG5xdGo0SnJpa21ZTUdiR3h4WGhrcmhjVW1lUmdOd1VzdmNNSi1PVnZ3TE9uMmV6NHVlZGZkOGhQMlQyNExmajdwMm5tdmRqc1hCQWhkUmpjYXByUGY5YlJBWHJaTWtmLWczNlpSWHpfaEZXMkQ0QjlFTnZSQUFrdUR0dkd4QkgzM3JSXzNWYkRGdFJNX3dtSkxyMTVpelB4WUgyLWJ0OHI5d1dYQTRLUldHb3VJY2xwYV9FQ0M5bjVmQ0RuSXhNdFh2ZXk2MndtZlVXNDg5aHhWdVN6c3VWZllaRVV1MXMyd0RSVkx2NU9hSmNGMXBWcm45bVB0U1Y3VHRmZE9ucWpVdExnX1NIdjgtSFA2NDZWTUl1ckN3NVhwVkhVcDgtVDhWdEFoLUJteThIWDdOR2htdDBpU1ZwZHNjNmd0XzJTUHRBOWR6VXZFNFFQNVdIUkZvVktNWE9IUFhlX0llRHJRblk1MGxiUnFNNDlKRGFtR0l2RFRXRDNSNzR6TUlONXV4ZE1ULWxVR1RCVVpUWC1kTU9TMFZzRWp5TnVBSzl3SmhZR0k2R1hIWV9QanRpOU1TWU8wTTZLeXpqUnZiM0ZRRHM1NnJlTnJvSGQ2bW9tb09RYlVVckZROHY0RWRjY2RtWTBWMGVCZkZnZ09GeWxNV2NBRkdkV1JfdTZnWjlBRUpnMDkwalQ2UWk2WTQtVWRaaGtSWkpMbktKYXk5a0xsR0VpSTd6cHF5NzgyRkM0Mmw5Qi1ZQkUtMF9JOVBlNGpyNnFyOHRLLThRTlpsR3pHOUxPR3B3MjZaMmcuQm5QUmswQkZpOUhwYlBPMGNycW1xdw.qEMRk17aqvd1tKuMyXQ-FlAPViJ2vMg5KPON_XrzWwxDEKdbY6KEfZZiedlsV8Ka6maVRfwOJFA0OSTOgQj11yF7F1XP-n-BZL_y4CblvglIH92MWi8qUymYKBbAlfnwQjqlGFUbZiYRx-QVmG1VRhKB5LoPZjGOc6J9COSox5IVbCWzyTgossq9ybr4ceF7vegjxVnr6zde9BwiwdT9EExewyZ2jxUNmYFOXbipJ0CdpYuo2r-rH72BTa1P21yNsWyB3SFNDXWsAnhshKDkMuCvZICdlu_Y290mgDW67kvazO4_XnF0ySp48-26yrXNiNyYD1ypZ4hdrHTHbfERGQ", 
+                RDClickUrl: "https://us-rd.mcsvc.samsung.com/statistics/click/addtowlt?ep=C50C3754FEB24833B30C10B275BB6AB8;cc=GC;ii=1287098641034510350;co=4041107270760138496;cp=1288017491089625089;si=24;pg=101212967375212546;pi=Aqz68EBXSx6Mv9jsaZxzaA;tp=4041107344991138240;li=0",
+                RDImpressionUrl: "https://us-rd.mcsvc.samsung.com/statistics/impression/addtowlt?ep=C50C3754FEB24833B30C10B275BB6AB8;cc=GC;ii=1287098641034510350;co=4041107270760138496;cp=1288017491089625089;si=24;pg=101212967375212546;pi=Aqz68EBXSx6Mv9jsaZxzaA;tp=4041107344991138240;li=0",
+                targetId: "btn",
+                buttonId: "BUTTON_ID",
+                target: "wallet",
+                showForced: true
+            })
+    </script>
+</body>
+
+</html>
